@@ -12,7 +12,7 @@ pre: " <b> 1.1. </b> "
 * Explore learning resources, how to maintain a Worklog, and the structure of Workshop documentation.
 * Analyze the problem and develop a Proposal for the Online Event Registration Platform on AWS, defining the initial architecture and implementation plan.
 
-### Tasks to be carried out this week:
+### Tasks completed this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
@@ -31,5 +31,3 @@ pre: " <b> 1.1. </b> "
 * Developed an implementation roadmap and test scenarios covering normal operation, traffic spikes, EC2 or application failures, concurrent registrations, new version deployments, and failed deployments; planned the corresponding demo flow.
 
 End-of-week status: Completed the orientation, research, and planning phase; AWS infrastructure has not yet been deployed.
-
-Next step: Build a minimum viable product (MVP) locally, then implement each component of the AWS architecture according to the roadmap.

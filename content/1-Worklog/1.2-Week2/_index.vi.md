@@ -12,7 +12,7 @@ pre: " <b> 1.2. </b> "
 * Hoàn thiện kế hoạch thực hiện dự án trong 8 tuần và các kịch bản kiểm thử.
 * Chuẩn bị môi trường local và bộ khung project để bắt đầu phát triển ứng dụng.
 
-### Các công việc cần triển khai trong tuần này:
+### Các công việc đã thực hiện trong tuần:
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
@@ -29,5 +29,3 @@ pre: " <b> 1.2. </b> "
 * Hoàn thành môi trường local và bộ khung project trên Windows 11: môi trường Python riêng, cấu trúc thư mục, repository trên GitHub, DynamoDB Local, API mẫu và frontend mẫu. Kiểm tra đọc/ghi, khả năng giữ dữ liệu sau khi khởi động lại, API /health và kết nối frontend–backend; hoàn thiện hướng dẫn chạy.
 
 Trạng thái cuối tuần: Môi trường local và bộ khung project đã sẵn sàng. Các chức năng nghiệp vụ đăng ký sự kiện chưa hoàn thành; các bài kiểm thử hệ thống mới ở mức kế hoạch; hạ tầng ứng dụng trên AWS chưa được triển khai.
-
-Bước tiếp theo: Xây dựng frontend với dữ liệu mẫu theo kế hoạch tuần thứ 2 của dự án, chuẩn bị cho giai đoạn phát triển backend và tích hợp local.

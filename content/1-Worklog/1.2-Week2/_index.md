@@ -12,7 +12,7 @@ pre: " <b> 1.2. </b> "
 * Finalize the eight-week project plan and test scenarios.
 * Prepare the local environment and project skeleton to begin application development.
 
-### Tasks to be carried out this week:
+### Tasks completed this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
@@ -22,12 +22,10 @@ pre: " <b> 1.2. </b> "
 ### Week 2 Achievements:
 
 * Selected a serverless architecture suited to the learning budget: a frontend on S3 and CloudFront, an API Gateway HTTP API, processing with Lambda On-Demand, and storage in DynamoDB On-Demand. Identified Terraform for infrastructure management, CloudWatch and SNS for monitoring and alerting, and GitHub Actions with OIDC as the planned CI/CD approach.
-* Clarified the frontend, API, and database request flow; defined an approach using transactions to update the counter and create the registration together, aiming to prevent registrations from exceeding event capacity. The frontend will neither access the database directly nor determine slot availability.
+* Clarified the frontend, API, and database request flow; defined an approach using transactions to update the counter and create the registration together, aiming to prevent registrations from exceeding event capacity. The agreed design keeps database access and availability decisions in the backend.
 * Developed an eight-week project plan covering setup, local development, AWS deployment, testing, documentation, demonstrations, and resource cleanup. Prioritized development on the laptop during the early stages to control costs.
 * Designed five test scenarios: competing for the last remaining places, resubmitting registration requests, traffic rising and falling, accessing administrative APIs without authorization, and deploying a faulty version before reverting to a working version. Execution approaches and evaluation criteria have been defined, but the scenarios have not yet been executed.
-* Defined limits for the planned load tests: 1 to 5 requests per second, with each run lasting two minutes; the read and registration tests are expected to total approximately 600 requests, excluding preparation requests. The scripts must have time limits and stop conditions, with no automatic retries during the first measurement run; results will reflect only the tested load.
+* Defined limits for the planned load tests: 1 to 5 requests per second, with each run lasting two minutes; the read and registration tests are expected to total approximately 600 requests, excluding preparation requests. The defined requirements include time limits, stop conditions, no automatic retries during the first measurement run, and conclusions limited to the tested load.
 * Completed the local environment and project skeleton on Windows 11: an isolated Python environment, directory structure, GitHub repository, DynamoDB Local, a sample API, and a sample frontend. Verified reads, writes, data persistence after restarting, the /health API, and frontend–backend connectivity; completed the local setup instructions.
 
 End-of-week status: The local environment and project skeleton are ready. Event registration business features are not yet complete; system tests remain at the planning stage; the application infrastructure has not yet been deployed on AWS.
-
-Next step: Build the frontend with sample data according to project week 2, preparing for backend development and local integration.

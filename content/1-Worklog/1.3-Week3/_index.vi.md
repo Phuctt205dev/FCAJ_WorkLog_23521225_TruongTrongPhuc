@@ -12,7 +12,7 @@ pre: " <b> 1.3. </b> "
 * Hoàn thiện giao diện quản lý sự kiện, phối hợp tích hợp API và thống nhất các quy tắc bảo vệ dữ liệu đăng ký.
 * Kiểm tra chức năng, giao diện responsive và kết quả tích hợp trên môi trường local; cập nhật tài liệu dự án.
 
-### Các công việc cần triển khai trong tuần này:
+### Các công việc đã thực hiện trong tuần:
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
@@ -30,4 +30,4 @@ pre: " <b> 1.3. </b> "
 * Frontend build/lint và SAM build/validate đạt; frontend còn hai cảnh báo Fast Refresh cũ tại Button và Badge. Kiểm tra Edge headless ghi nhận các luồng chính hoạt động; các trang mới không tràn ngang tại chiều rộng 320, 375, 414, 768 và 1280 px. Nội dung script thử nghiệm hiển thị như văn bản, không thực thi.
 * Cập nhật tài liệu chạy local, API contract, mô hình dữ liệu và quy tắc bảo mật. Dùng thử lại ứng dụng với tài khoản quản trị, kiểm tra trạng thái backend và phân biệt số chỗ mô phỏng trong dữ liệu mẫu với bản ghi đăng ký thực tế.
 
-Trạng thái cuối tuần: Hoàn thành đợt nâng cấp vai trò và quản trị sự kiện trên môi trường local. Hạ tầng ứng dụng chưa triển khai lên AWS; các phương án cấp tài khoản quản trị trên production mới ở mức trao đổi.
+Trạng thái cuối tuần: Hoàn thành đợt nâng cấp vai trò và quản trị sự kiện trên môi trường local. Hạ tầng ứng dụng chưa triển khai lên AWS.

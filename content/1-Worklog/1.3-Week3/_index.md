@@ -12,7 +12,7 @@ pre: " <b> 1.3. </b> "
 * Complete the event management interface, coordinate API integration, and agree on rules that protect registration data.
 * Check functionality, responsive layouts, and integration results locally; update project documentation.
 
-### Tasks to be carried out this week:
+### Tasks completed this week:
 
 | Day | Task | Start Date | Completion Date | Reference Material |
 | --- | --- | --- | --- | --- |
@@ -30,4 +30,4 @@ pre: " <b> 1.3. </b> "
 * Frontend build/lint and SAM build/validation passed; two existing Fast Refresh warnings remain in Button and Badge. Edge headless checks covered the main flows, and the new pages showed no horizontal overflow at widths of 320, 375, 414, 768, and 1280 px. Test script content was displayed as text without execution.
 * Updated local setup documentation, the API contract, the data model, and security rules. Tried the application again with an administrator account, checked backend readiness, and clarified the difference between simulated occupied places in seed data and actual registration records.
 
-End-of-week status: Completed the role selection and event administration upgrade locally. The application infrastructure has not been deployed on AWS; production administrator provisioning options remain at the discussion stage.
+End-of-week status: Completed the role selection and event administration upgrade locally. The application infrastructure has not been deployed on AWS.

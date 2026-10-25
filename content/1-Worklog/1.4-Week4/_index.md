@@ -1,57 +1,36 @@
 ---
 title: "Week 4 Worklog"
-date: 2024-01-01
+date: 2026-10-24
 weight: 4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 4 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Add participant accounts, the ticket booking flow, and My Tickets; ensure registrations follow sales opening times and prevent duplicates.
+* Unify login, role-based navigation, and the application layout; extend the event and User account management interfaces.
+* Review functionality and layouts locally; complete documentation for handover.
+* Learn from mentors about AI in candidate interviews, building products with Kiro Crew, and AWS AI PenTesting.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks completed this week:
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| Wednesday | - Add participant signup, login, and My Tickets interfaces.<br>- Coordinate booking API integration, associate tickets with accounts, and restrict ticket access to their owners.<br>- Complete handling of sales opening times, sold-out events, and duplicate prevention when requests are retried. | 21 Oct 2026 | 21 Oct 2026 | [OWASP – Authorization](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html); [OWASP – Password Storage](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html); [DynamoDB Transactions](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/transaction-apis.html); [AWS – Idempotent APIs](https://aws.amazon.com/builders-library/making-retries-safe-with-idempotent-APIs/) |
+| Friday | - Unify the login form, session management, and navigation for User/Admin roles.<br>- Complete the sidebar, navbar, and layouts for desktop and mobile use.<br>- Add User search, editing, and deletion; coordinate ticket and capacity handling when deleting accounts or events. | 23 Oct 2026 | 23 Oct 2026 | [OWASP – Session Management](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html); [OWASP – CSRF Prevention](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html); [OWASP – Authorization](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html); [DynamoDB Transactions](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/transaction-apis.html) |
+| Saturday | - Attend a mentor meeting: watch a demo of AI in candidate interviews and learn about building products with Kiro Crew and AWS AI PenTesting.<br>- Try account, booking/ticket viewing, and administration flows locally; review layouts and resolve issues found during use.<br>- Update API documentation, the data model, and handover instructions; coordinate code integration and synchronize branches. | 24 Oct 2026 | 24 Oct 2026 | Mentor presentations; supplementary reading: [Kiro – Kiro Crew](https://kiro.dev/blog/introducing-kiro-crew/); [AWS – AI PenTesting](https://aws.amazon.com/about-aws/whats-new/2026/03/aws-security-agent-ondemand-penetration/); [Git – Worktree](https://git-scm.com/docs/git-worktree) |
 
 ### Week 4 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Completed participant accounts with signup, login, logout, and access to booked tickets; coordinated frontend/backend integration and access permissions.
+* Completed account-linked booking with sales opening time and availability checks. Added duplicate prevention and request retry handling for interrupted connections.
+* Unified login and navigation for User/Admin roles. Added a collapsible sidebar and navbar, and improved layouts for desktop and mobile use.
+* Extended administration with User search, editing, and deletion, and support for deleting events with registrations. Coordinated ticket cleanup and capacity restoration where needed while preserving unrelated data.
+* Reviewed the main user flows locally, including access permissions and responsive layouts. Resolved interaction, notification, and data update issues found during use.
+* Updated API documentation, the data model, and handover instructions; coordinated code integration and synchronized branches.
+* Watched the mentors' demo of AI in candidate interviews and gained a practical perspective on applying AI to real-world problems.
+* Received an introduction to building products with Kiro Crew and gained a general understanding of coordinating AI agents to support software development.
+* Learned about AWS AI PenTesting and the role of AI in supporting vulnerability discovery, validation, and remediation recommendations during application security assessments.
 
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+End-of-week status: Completed the account, booking, and administration upgrade locally. Application infrastructure has not been deployed on AWS; booking does not include payment.

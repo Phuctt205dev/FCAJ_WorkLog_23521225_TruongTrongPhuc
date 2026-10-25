@@ -12,7 +12,7 @@ pre: " <b> 1.1. </b> "
 * Tìm hiểu các nguồn học tập, cách ghi Worklog và cấu trúc trình bày Workshop.
 * Phân tích bài toán và xây dựng Proposal cho đề tài Online Event Registration Platform trên AWS, xác định kiến trúc và kế hoạch triển khai ban đầu.
 
-### Các công việc cần triển khai trong tuần này:
+### Các công việc đã thực hiện trong tuần:
 
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --- | --- | --- | --- |
@@ -31,5 +31,3 @@ pre: " <b> 1.1. </b> "
 * Lập lộ trình triển khai và các kịch bản kiểm thử: hoạt động bình thường, lượng truy cập tăng đột biến, lỗi EC2 hoặc ứng dụng, đăng ký đồng thời, triển khai phiên bản mới và xử lý triển khai thất bại; xây dựng luồng demo tương ứng.
 
 Trạng thái cuối tuần: Hoàn thành giai đoạn làm quen, nghiên cứu và lập kế hoạch; chưa triển khai hạ tầng AWS thực tế.
-
-Bước tiếp theo: Xây dựng phiên bản ứng dụng tối thiểu (MVP) trên môi trường local, sau đó triển khai từng thành phần của kiến trúc AWS theo lộ trình đã lập.
