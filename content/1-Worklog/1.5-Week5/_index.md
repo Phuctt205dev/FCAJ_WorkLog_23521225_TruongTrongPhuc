@@ -1,57 +1,29 @@
 ---
 title: "Week 5 Worklog"
-date: 2024-01-01
+date: 2026-10-30
 weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 5 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Turn the selected serverless architecture into a concrete AWS application deployment plan.
+* Prepare tools and a working account, and verify application packaging on the deployment machine.
+* Estimate costs, configure budget tracking, and define resource cleanup after testing.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks completed this week:
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| Wednesday | - Review the local application, identify preparations for AWS, and complete the deployment plan.<br>- Agree to deploy the application first and add monitoring and alerts later; define functional checks and resource cleanup steps.<br>- Estimate costs within the learning budget and complete the planning documentation. | 28 Oct 2026 | 28 Oct 2026 | [AWS – CloudFront with private S3](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html); [Terraform – Plan](https://developer.hashicorp.com/terraform/cli/commands/plan) |
+| Friday | - Install tools, set up an IAM account with MFA, and sign in to AWS CLI.<br>- Verify frontend build and backend packaging on the deployment machine.<br>- Adjust AWS Budgets and update the environment setup guide. | 30 Oct 2026 | 30 Oct 2026 | [AWS CLI – Browser login](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-sign-in.html); [AWS Budgets](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-managing-costs.html) |
 
 ### Week 5 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Completed the plan to move the event registration platform from local development to AWS, defining deployment steps and verification criteria. Agreed to get the application running first, then add monitoring and alerts.
+* Prepared tools and a working account on the deployment machine; signed in to AWS CLI and successfully verified frontend and backend packaging. Completed the environment preparation needed to proceed with infrastructure deployment.
+* Estimated costs within the learning budget and configured budget tracking and alert thresholds in AWS Budgets to support cost control during testing.
+* Completed the environment setup guide and the procedure for checking functionality, saving evidence, and removing resources after testing; defined how to run a deployment trial while preserving local data.
 
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+End-of-week status: Completed planning and deployment environment preparation. Application configuration still needs adjustment and deployment permissions need verification; the application has not been deployed or load-tested on AWS.
