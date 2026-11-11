@@ -1,57 +1,33 @@
 ---
 title: "Week 6 Worklog"
-date: 2024-01-01
+date: 2026-11-04
 weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 6 Objectives:
 
-* Connect and get acquainted with members of First Cloud AI Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Prepare the infrastructure and application for a trial AWS deployment of the event registration platform.
+* Deploy the application for a trial and remove the resources after testing.
+* Update the interface and explore deployment automation.
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCAJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks completed this week:
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| Tuesday | - Review the architecture and prepare access permissions for deploying the application to AWS.<br>- Build the infrastructure configuration with Terraform and update the application to support AWS.<br>- Explore how GitHub Actions can automate application checks and deployment. | 3 Nov 2026 | 3 Nov 2026 | [AWS IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html); [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-create); [GitHub Actions](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax) |
+| Wednesday | - Integrate interface updates and verify that the application can be built.<br>- Deploy the application to AWS for a trial and remove the resources afterward.<br>- Add a tool to help check resources after cleanup. | 4 Nov 2026 | 4 Nov 2026 | [CloudFront and S3](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html); [API Gateway and Lambda](https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-integrations-lambda.html); [Terraform Destroy](https://developer.hashicorp.com/terraform/cli/commands/destroy) |
+
+Some AWS and Terraform references in the table were reviewed after the work was completed.
 
 ### Week 6 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Prepared an account and access permissions for deploying the application to AWS.
+* Built the infrastructure configuration with Terraform, including components for hosting the interface, processing requests, and storing data.
+* Updated the application and administration tool to support AWS alongside the existing development environment.
+* Updated interface colors, rounded corners, navigation, and saved display preferences. The frontend build completed successfully.
+* Completed a trial deployment to AWS, removed the trial resources afterward, and added a tool to help check the remaining resources.
+* Explored GitHub Actions for automated application checks and deployment in a later phase.
 
-* Successfully created and configured an AWS Free Tier account.
-
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
-
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
-
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+End-of-week status: Completed a trial deployment and removed its resources afterward. AWS functional testing, monitoring, and load testing remain to be completed.
